@@ -1,0 +1,77 @@
+/* --- Galerie (déjà fait précédemment) --- */
+.service-gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.img-card {
+  width: 100%;
+  aspect-ratio: 16/10;
+  background: #eee;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease;
+}
+
+.img-card:hover {
+  transform: translateY(-6px);
+}
+
+.img-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* --- LIGHTBOX SLIDER --- */
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.lightbox-img {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px rgba(255,255,255,0.4);
+}
+
+/* Close Button */
+.lightbox .close {
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  color: white;
+  font-size: 45px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 60px;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  transform: translateY(-50%);
+  padding: 20px;
+}
+
+.arrow.left { left: 30px; }
+.arrow.right { right: 30px; }
+
+.arrow:hover { color: #f5c542; } /* Couleur thème Sedja Peinture */

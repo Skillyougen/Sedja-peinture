@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sedja Peinture — Site</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="STye.css">
+</head>
+<body style="background-color: #573a1f;">
+  <header>
+    <div class="nav-inner">
+      <div class="brand">
+        <!-- Logo placed slightly left; use nav variant in the header -->
+        <img src="sedrick/WhatsApp Image 2025-12-03 at 16.30.37_dfd3bcc9.jpg" alt="Sedja Peinture Logo"  style="border-radius: 15px;"/>
+        <div class="tag">SEDJA PEINTURE</div>
+      </div>
+
+      <nav aria-label="Navigation principale">
+        <div class="nav-links" id="navLinks">
+          <a href="#home" data-target="home">Home</a>
+          <a href="#services" data-target="services">Nos services</a>
+          <a href="#service1" data-target="service1">Décoration</a>
+          <a href="#contact" data-target="contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="container reveal">
+      <div class="hero">
+        <div class="left">
+          <h1 style="color: #c27934;">SEDJA PEINTURE — Un service de qualité</h1>
+          <p>Entreprise spécialisée en peinture intérieure et décoration. Nous transformons vos espaces avec des finitions professionnelles et des conseils personnalisés.</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#services" data-target="services">Voir les services</a>
+            <a class="btn btn-ghost" href="#contact" data-target="contact">Contactez-nous</a>
+          </div>
+          <div style="margin-top:14px;color:#666;font-size:14px">
+            <strong>Adresse:</strong> Douala - Akwa<br>
+            <strong>Tel:</strong> <a href="tel:+237670041993">+237 670 04 19 93</a> — <a href="tel:+237655236664">+237 655 23 66 64</a><br>
+            <strong>Email:</strong> <a href="mailto:djambongsedrick@gmail.com">djambongsedrick@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="art" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="services" class="container reveal">
+      <h2>Nos Services</h2>
+      <p style="color:#444;margin-bottom:12px">Nous proposons plusieurs types de prestations — cliquez ou utilisez la navigation pour accéder aux détails.</p>
+
+      <!-- services grid (4 cards) -->
+      <div class="services-grid" id="servicesGrid">
+        <article class="service-card">
+          <img src="sedrick/IMG-20251116-WA0015.jpg" alt="Décor">
+          <div class="meta">
+            <h3>Décorations intérieur</h3>
+            <p>Finitions murales, textures, peintures décoratives et conseils couleur.</p>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <img src="sedrick/WhatsApp Image 2025-11-02 at 13.04.56_eb423491.jpg" alt="Prestation de services">
+          <div class="meta">
+            <h3>Prestation de services</h3>
+            <p>Interventions sur chantier, préparation des surfaces, et application professionnelle.</p>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <img src="sedrick/IMG-20251116-WA0008.jpg" alt="Lacquage et vente">
+          <div class="meta">
+            <h3>Lacquage & vente matériel</h3>
+            <p>Revêtements laqués et fourniture de matériel et peintures pour professionnels et particuliers.</p>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="meta">
+            <h3>Conseil & formation</h3>
+            <p>Conseils techniques et formations pour apprentis peintres et artisans.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Detailed service example: repeatable template for each service -->
+    <section id="service1" class="container reveal">
+<h2>Décorations intérieur</h2><br/>
+      <h2>Décorations Modernes</h2>
+      <!-- Galerie -->
+<div class="service-gallery">
+    <div class="img-card">
+        <img src="sedrick/IMG-20251116-WA0008.jpg" alt="Galerie 1">
+    </div>
+    <div class="img-card">
+        <img src="sedrick/IMG-20251116-WA0023.jpg" alt="Galerie 2">
+    </div>
+    <div class="img-card">
+        <img src="sedrick/IMG-20251116-WA0006.jpg" alt="Galerie 23">
+    </div>
+</div>
+<br/>
+<h2>Décorations Traditionnelles</h2>
+<div class="service-gallery">
+    <div class="img-card">
+        <img src="sedrick/WhatsApp Image 2025-12-11 at 07.56.41_7542b831.jpg" alt="Galerie 1">
+    </div>
+</div>
+<br/>
+<h2>Décorations exterieures</h2>
+<div class="service-gallery">
+    <div class="img-card">
+        <img src="sedrick/IMG-20251116-WA0022.jpg" alt="Galerie 1">
+    </div>
+</div>
+
+<!-- Lightbox Slider -->
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="">
+    <div class="arrow left">&#10094;</div>
+    <div class="arrow right">&#10095;</div>
+</div>
+    </section>
+
+    <section id="contact" class="container reveal">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <p>Pour devis ou rendez-vous :</p>
+          <ul class="contact-list">
+            <li><strong>Adresse:</strong>&nbsp;<span>Douala - Akwa</span></li>
+            <li><strong>Tél (principal):</strong>&nbsp;<a href="tel:+237670041993">+237 670 04 19 93</a></li>
+            <li><strong>Tél (secondaire):</strong>&nbsp;<a href="tel:+237655236664">+237 655 23 66 64</a></li>
+            <li><strong>Email:</strong>&nbsp;<a href="mailto:djambongsedrick@gmail.com">djambongsedrick@gmail.com</a></li>
+            <li><strong>WhatsApp:</strong>&nbsp;
+              <a id="whatsappLink" href="https://wa.me/237670041993?text=Bonjour%20Sedja%20Peinture%2C%20je%20vous%20contacte%20..." target="_blank" rel="noopener">Écrire via WhatsApp</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Envoyer un message rapide</h4>
+          <form id="contactForm" class="contact-card" onsubmit="return false;">
+            <label style="display:block;margin-bottom:8px">
+              <input required name="name" placeholder="Votre nom" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.06)"/>
+            </label>
+            <label style="display:block;margin-bottom:8px">
+              <input required name="email" placeholder="Votre e-mail" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.06)"/>
+            </label>
+            <label style="display:block;margin-bottom:8px">
+              <textarea name="message" placeholder="Votre message" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.06);min-height:100px"></textarea>
+            </label>
+            <div style="display:flex;gap:8px;justify-content:flex-end">
+              <button class="btn btn-ghost" type="reset">Effacer</button>
+              <button class="btn btn-primary" id="sendBtn" type="submit">Envoyer</button>
+            </div>
+            <div id="formNotice" style="margin-top:10px;color:green;display:none">Message prêt (formulaire non connecté).</div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="sedrick/WhatsApp Image 2025-12-03 at 16.30.37_dfd3bcc9.jpg" alt="logo" style="border-radius: 15px;">
+          <div>
+            <div style="font-weight:700;">SEDJA PEINTURE</div>
+            <div class="legal">© <span id="year"></span> Sedja Peinture — Tous droits réservés</div>
+          </div>
+        </div>
+        <div class="legal">Conception &nbsp;•&nbsp; Douala - Akwa &nbsp;•&nbsp; <a href="https://wa.me/237670041993?text=Bonjour%20Sedja%20Peinture" target="_blank" style="text-decoration: none; padding: 5px; background-color: green; color: white; border-radius: 9px ; font-size: 10px;">WhatsApp</a></div>
+      </div>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
