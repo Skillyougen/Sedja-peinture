@@ -8,6 +8,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="STye.css">
+  <link rel="stylesheet" href="scr..css">
+  <script defer src="script.js"></script>
+  <script defer src="script 2.js"></script>
 </head>
 <body style="background-color: #573a1f;">
   <header>
@@ -167,6 +170,57 @@
       </div>
     </section>
 
+    <!-- Overlay -->
+<div class="overlay" id="overlay"></div>
+
+<!-- Panel Conseils -->
+<aside class="advice-panel" id="advicePanel">
+  <header class="advice-header">
+    <h2>Conseils de peintres</h2>
+    <button id="closeAdvice">✕</button>
+  </header>
+
+  <div class="advice-messages" id="adviceMessages">
+
+    <!-- Conseil officiel -->
+    <div class="advice-message official">
+      <h4>Conseil professionnel</h4>
+      <h2>Le conseil du professionnel</h2>
+    <span class="divider"></span>
+
+    <p>
+      <strong>Le peintre est souvent perçu comme le dernier intervenant dans un bâtiment.</strong>
+      Pourtant, son travail devrait commencer dès le début de la construction.
+    </p>
+
+    <p>
+      Dès la fondation, le peintre joue un rôle essentiel dans la gestion des étanchéités.
+      Ce travail préventif garantit la bonne santé des murs et permet d’éviter les remontées
+      capillaires, le salpêtre et de nombreuses anomalies liées à l’eau.
+    </p>
+
+    <p>
+      Même les carreleurs, avant la pose des carreaux dans les douches, les salles d’eau
+      ou les vérandas exposées aux intempéries, devraient consulter un peintre professionnel
+      afin de réaliser les étanchéités nécessaires en amont.
+    </p>
+
+    <p class="highlight">
+      La base d’une bonne peinture commence toujours au début.
+    </p>
+      <span class="tag">SEDJA PEINTURE</span>
+    </div>
+
+  </div>
+
+  <!-- Input -->
+  <div class="advice-input">
+    <textarea id="adviceInput" placeholder="Partagez votre conseil..."></textarea>
+    <button id="sendAdvice">Envoyer</button>
+  </div>
+</aside>
+
+
     <footer>
       <div class="footer-inner">
         <div class="footer-brand">
@@ -180,6 +234,6 @@
       </div>
     </footer>
   </main>
-  <script src="script.js"></script>
+  
 </body>
 </html>
